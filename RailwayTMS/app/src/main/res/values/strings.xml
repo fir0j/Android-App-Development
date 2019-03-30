@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">RailwayTMS</string>
+    <string name="book_success">Congratulation! Your Ticket has been Booked Successfully</string>
+    <string name="book_fail">!!! SORRY BOOKING FAILED !!! Please pay Right Amount of Money</string>
+    <string name="text_note"> Attention!!!  Take a Screenshot or Note down the Ticket Informantion carefully</string>
+    <string name="wrongPasswordAlert">Username or Password may be incorrect</string>
+
+    <string-array name="Sources">
+        <item>Choose Origin</item>
+        <item>Yashwantpur</item>
+        <item>Hindupur</item>
+        <item>Kazipet</item>
+        <item>Nagpur</item>
+        <item>Bhopal</item>
+        <item>Kanpur</item>
+        <item>Lucknow</item>
+        <item>Gorakhpur</item>
+    </string-array>
+
+    <string-array name="Destination">
+        <item>Choose Destination</item>
+        <item>Gorakhpur</item>
+        <item>Lucknow</item>
+        <item>Kanpur</item>
+        <item>Bhopal</item>
+        <item>Nagpur</item>
+        <item>Kazipet</item>
+        <item>Hindupur</item>
+        <item>Yashwantpur</item>
+    </string-array>
+
+    <string-array name="Trains">
+        <item>Choose Train</item>
+        <item>11034B</item>
+        <item>1225D</item>
+        <item>2394B</item>
+        <item>1524A</item>
+        <item>7540C</item>
+        <item>7733E</item>
+        <item>5238B</item>
+        <item>3690D</item>
+    </string-array>
+
+    <string-array name="Seats">
+        <item>Choose Seats</item>
+        <item>05A-middle</item>
+        <item>09B-sideupper</item>
+        <item>14C-lower</item>
+        <item>55B-upper</item>
+        <item>30C-sidelower</item>
+        <item>22A-middle</item>
+        <item>40B-lower</item>
+        <item>10B-upper</item>
+    </string-array>
+
+    <string-array name="costs">
+        <item>500</item>
+        <item>900</item>
+        <item>1200</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2200</item>
+        <item>3000</item>
+        <item>3600</item>
+    </string-array>
+
+    <string-array name="dateAndTime">
+        <item>Choose Date and Time</item>
+        <item>5 May at 6:00 AM</item>
+        <item>4 April at 10:00 AM</item>
+        <item>6 June at 12:00 PM</item>
+        <item>3 May at 3:00 PM</item>
+        <item>5 May at 8:00 PM</item>
+        <item>10 August at 9:00 PM</item>
+        <item>7 September at 7:00 AM</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Seats_Activity3"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/train_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="33dp"
+        android:text="Trains Available"
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner_train"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:background="#2ecc71"
+        android:entries="@array/Trains"
+        app:layout_constraintEnd_toEndOf="@+id/spinner_seats"
+        app:layout_constraintStart_toStartOf="@+id/spinner_seats"
+        app:layout_constraintTop_toBottomOf="@+id/train_text" />
+
+    <TextView
+        android:id="@+id/train_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Seats Available"
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinner_seats"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner_seats"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="#2ecc71"
+        android:entries="@array/Seats"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/train_textView"
+        app:layout_constraintStart_toEndOf="@+id/train_textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cost_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#e84118"
+        android:text="ESTIMATED COST: "
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Cost_amount"
+        app:layout_constraintEnd_toStartOf="@+id/Cost_amount"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_next2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:background="#2ecc71"
+        android:text="Next"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginStart="47dp"
+        android:background="#e84118"
+        android:text="Cancel"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_next2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Cost_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="118dp"
+        android:layout_marginTop="120dp"
+        android:background="#2ecc71"
+        android:hint="Rupees"
+        android:text=""
+        android:textColor="#e84118"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_next2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cost_textview"
+        app:layout_constraintTop_toTopOf="@+id/spinner_seats" />
+
+
+</android.support.constraint.ConstraintLayout>
